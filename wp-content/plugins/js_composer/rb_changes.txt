@@ -1,0 +1,7 @@
+composer/build.php : lines 47-49 (comment out)
+composer/lib/shortcodes/column.php : lines 47-50 (comment out)
+composer/lib/layouts.php : line 66 (added isset)
+composer/config/map.php : line 1195 (comment out)
+						: line 23 (changed controls)
+assets/js/js_composer/settings.js : line 165 (added chunk of code)
+									line 176 (added chunk of code)

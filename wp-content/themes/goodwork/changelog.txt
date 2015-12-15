@@ -1,0 +1,177 @@
+*** GoodWork Changelog ***
+
+17 September 2014 - Version 3.2.2
+
+	* Added support for WooCommerce 2.2.x
+	* Updated the Revolution Slider to it's latest version
+	* Fixed other minor issues
+
+16 August 2014 - Version 3.2.1
+
+	* Fixed a global js error & some other minor style issues
+
+31 July 2014 - Version 3.2
+	
+	* Improved support for Ignition Deck
+
+29 July 2014 - Version 3.1.3
+	
+	* Fixed Visual Composer row design options 
+	* Fixed a compatibility issue between Visual Composer and WPML
+	* Fixed portfolio slider order issues
+	* Fixed other minor bugs
+	* Updated Google Fonts list
+
+10 July 2014 - Version 3.1.2
+	
+	* Fixed an issue with the MailPoet plugin
+	* Fixed other minor issues with various shortcodes such as "Icon Text Block" or "Accordion"
+	* Fixed an issue with self hosted videos
+
+8 July 2014 - Version 3.1.1
+
+	* Fixed the breadcrumb display issue
+	* Updated the Revolution Slider to it's latest version
+
+5 July 2014 - Version 3.1
+
+	* Improved support for IgnitionDeck regular & enterprise editions
+	* Fixed more minor bugs
+
+2 July 2014 - Version 3.0.2
+
+	* Fixed some minor bugs related to style, colors & shortcodes
+
+30 June 2014 - Version 3.0.1
+
+	* Fixed search page issues
+	* Added the latest version of the Visual Composer into the package (separate)
+	* Fixed other small bugs
+
+28 June 2014 - Version 3.0
+
+	* Added WordPress 3.9 compatibility
+	* Improved support for the Ignition Deck Plugin
+	* Refreshed language files
+	* Improved the code & fixed a lot of small bugs
+	* Updated the Visual Composer & Revolution Slider plugins to their latest versions
+	* Added a child theme to the package
+
+3 March 2014 - Version 2.3.6
+
+	* Fixed an issue with checkout on WooCommerce 2.1.3
+	* Removed meta description built in SEO tools
+	* Fixed other small css issues
+
+19 February 2014 - Version 2.3.5
+
+	* Added support for WooCommerce 2.1.x 
+	* Fixed two gallery issues (a. the gallery now works with images from the entire library, not just the ones added to the page where you have the gallery & b. added css style for images with captions) 
+	* Excluded the 404 page (the user defined one) from the Sitemap
+	* Fixed twitter widget .. again 
+	* Updated the Visual Composer plugin to version 4.0.6 (for the two issues above)
+
+8 January 2014 - Version 2.3.4
+
+	* Fixed twitter widget (updated the Visual Composer plugin to version 4.0.5)
+	* Fixed other minor css bugs
+
+12 November 2013 - Version 2.3.3
+
+	* Added basic support for the Ignition Deck "grid shortcode"
+	* Fixed "page reloading issue" by improving the styled select js plugin
+
+12 October 2013 - Version 2.3.1
+
+	* Fixed gallery shortcode error not allowing multiple galleries on the same page
+	* Removed duplicate "Customize" menu item from the Appearance tab
+	* Fixed other small css bugs
+
+28 September 2013 - Version 2.3
+
+	* Improved compatibility with popular SEO plugins
+	* Added better child theme compatibility
+	* Fixed some issues in IE10 (portfolio filter & social icons)
+	* Removed some php warnings
+
+17 August 2013 - Version 2.2.2
+
+	* Fixed the search form error
+	* Fixed some color issues
+	* Fixed portfolio navigation issues caused by the WordPress 3.6 update
+	* Updated Revolution Slider to version 4.0.2, thus fixing the error made in 4.0.1
+
+15 August 2013 - Version 2.2.1
+
+	* Fixed errors caused by version 2.2
+
+15 August 2013 - Version 2.2
+
+	* 100% WordPress 3.6 compatibility with inclusion of the custom skin for the new video & audio objects
+	* Changed the plugin updating logic. You are now able to update the bundled plugins via the WordPress dashboard.
+	* Added captions option to the WordPress gallery shortcode
+	* Fixed some minor bugs
+
+22 July 2013 - Version 2.1.2
+
+	* Fixed the blog post links issue (the links from the "link" post format were all opening in a _blank window)
+	* Fixed the 100% streched images issue (left or right aligned images are now their normal size, while there is another class for responsive - 100% images)
+
+18 July 2013 - Version 2.1.1
+
+	* Updated the Revolution Slider plugin (which in the last version was wrongly uploaded)
+	* Fixed the portfolio navigation issues (in the case where there were multiple portfolios set, each with it's own categories)
+
+17 July 2013 - Version 2.1
+
+	* Tweaked theme to support better translations and WPML (added a wpml-config.xml file, completed the theme's .po file with new strings & also created text fields for shortcodes outputted text - as in the latest blog/portfolio shortcode and also the twitter shortcode)
+	* Removed hover for section titles and lists
+	* The social icons shortcode now allows to set the target of the links
+	* The twitter shortcode has the option to disable tweets rotation and display a single static tweet instead
+	* Fixed comments issues in portfolio posts
+	* Fixed comments issues in modern blog
+	* Fixed some IE8 errors
+	* Fixed some minor WooCommerce issues
+	* Fixed other style bugs
+
+27 June 2013 - Version 2.0
+
+	* Added WooCommerce support
+	* Fixed breadcrumb in portfolio projects
+	* Fixed other bugs
+
+5 June 2013 - Version 1.2.1
+
+	* Fixed bug provoked by version 1.2
+
+4 June 2013 - Version 1.2
+	
+	* Fixed lightbox issues in boxed version
+	* Fixed jQuery objects not working inside AJAX content, such as blog or portfolio
+	* Fixed other minor issues regarding js or css bugs
+
+21 May 2013 - Version 1.1
+	
+	* Added custom categories support for the "latest posts" shortcode
+	* Menus now support custom css classes
+	* Updated the xml import file to contain the first homepage
+	* Fixed some responsiveness issues (pricing tables & promo lines)
+	* Fixed minimal contact form bug
+	* Fixed other minor CSS bugs
+
+8 May 2013 - Version 1.0.5
+	
+	* Added breadcrumb navigation
+	* Added IE7 error message
+	* Fixed contact form bug
+	* Fixed other minor issues
+
+6 May 2013 - Version 1.0.3
+	
+	* Fixed Visual Composer bug
+	* Added missing update class files
+	* Fixed some IE8 errors
+
+2 May 2013 - Version 1.0
+	
+	* First Release

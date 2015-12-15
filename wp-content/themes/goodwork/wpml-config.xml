@@ -1,0 +1,81 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="ignore">rb_meta_box_portfolio_set</custom-field>
+        <custom-field action="ignore">rb_def_p_ajax</custom-field>
+        <custom-field action="ignore">rb_def_p_filtering</custom-field>
+        <custom-field action="ignore">rb_def_p_columns</custom-field>
+        <custom-field action="ignore">rb_def_p_thumbnails</custom-field>
+        <custom-field action="ignore">rb_def_p_related</custom-field>
+        <custom-field action="ignore">rb_meta_box_sidebar_layout</custom-field>
+        <custom-field action="ignore">rb_meta_box_sidebar_set</custom-field>
+        <custom-field action="ignore">rb_meta_box_t_show</custom-field>
+        <custom-field action="ignore">rb_meta_box_t_target</custom-field>
+        <custom-field action="ignore">rb_meta_box_title2_show</custom-field>
+        <custom-field action="ignore">rb_meta_box_title2_icon</custom-field>
+        <custom-field action="ignore">rb_meta_box_post_assets_desc</custom-field>
+        <custom-field action="ignore">rb_meta_box_post_assets_g</custom-field>
+        <custom-field action="ignore">rb_meta_box_post_assets_l</custom-field>
+        <custom-field action="ignore">rb_meta_box_post_assets_i</custom-field>
+        <custom-field action="ignore">rb_meta_box_post_assets_ev</custom-field>
+        <custom-field action="ignore">rb_meta_box_post_assets_desc</custom-field>
+        <custom-field action="ignore">rb_meta_box_post_assets_sv1</custom-field>
+        <custom-field action="ignore">rb_meta_box_post_assets_sv2</custom-field>
+        <custom-field action="ignore">rb_meta_box_post_assets_sv3</custom-field>
+        <custom-field action="ignore">rb_meta_box_post_assets_a</custom-field>
+        <custom-field action="ignore">rb_folio_slider</custom-field>
+        <custom-field action="ignore">rb_slider_alias</custom-field>
+        <custom-field action="ignore">rb_slider_skin</custom-field>
+        <custom-field action="ignore">rb_slider_rev_minimal</custom-field>
+        <custom-field action="ignore">rb_meta_pricing_info</custom-field>
+        <custom-field action="ignore">rb_slider_rev_complex</custom-field>
+        <custom-field action="translate">rb_meta_box_t_link</custom-field>
+        <custom-field action="translate">rb_meta_box_t_url</custom-field>
+        <custom-field action="translate">rb_meta_box_title2_title</custom-field>
+        <custom-field action="translate">rb_meta_box_title2_subtitle</custom-field>
+        <custom-field action="translate">rb_meta_box_post_assets_q_desc</custom-field>
+        <custom-field action="translate">rb_meta_box_post_assets_q_1</custom-field>
+        <custom-field action="translate">rb_meta_box_post_assets_q_2</custom-field>
+        <custom-field action="translate">rb_meta_pricing_features</custom-field>
+        <custom-field action="translate">rb_meta_pricing_items</custom-field>
+        <custom-field action="translate">rb_meta_pricing_featured</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">portfolio</custom-type>
+        <custom-type translate="1">pricing</custom-type>
+    </custom-types>     
+    <language-switcher-settings>
+        <key name="icl_lang_sel_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>
+        <key name="icl_lang_sel_footer_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>    
+        <key name="icl_language_switcher_sidebar">0</key>  
+        <key name="icl_widget_title_show">0</key>
+        <key name="icl_lang_sel_type">dropdown</key>
+        <key name="icl_lso_link_empty">0</key>
+        <key name="icl_lso_flags">0</key>
+        <key name="icl_lso_native_lang">1</key>
+        <key name="icl_lso_display_lang">1</key>
+        <key name="icl_lang_sel_footer">0</key>
+        <key name="icl_post_availability">0</key>
+        <key name="icl_post_availability_position">below</key>
+        <key name="icl_post_availability_text">This post is also available in: %s</key>    
+    </language-switcher-settings>    
+</wpml-config>
