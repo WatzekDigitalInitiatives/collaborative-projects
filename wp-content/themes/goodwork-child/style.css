@@ -28,7 +28,7 @@
 /* ---------------------------------------------------------------------------------
 ------------------------------   ANYTHING SLIDER   ----------------------------------
 ------------------------------------------------------------------------------------*/
- 
+
 #slider{width:700px;height:390px;list-style:none;overflow-y:auto;overflow-x:hidden}
 .anythingSlider-default{margin:0 auto;padding:0 45px 28px}
 .anythingSlider-default .anythingWindow{border-top:3px solid #777;border-bottom:3px solid #777}
@@ -237,7 +237,7 @@ a.tp-button{-webkit-transition:none;-moz-transition:none;-o-transition:none;-ms-
  * Contributing author: Tyler Smith (@mbmufffin)
  */
 
- 
+
 /* Browser Resets */
 .flex-container a:active,
 .flexslider a:active,
@@ -245,18 +245,18 @@ a.tp-button{-webkit-transition:none;-moz-transition:none;-o-transition:none;-ms-
 .flexslider a:focus  {outline: none;}
 .slides,
 .flex-control-nav,
-.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
 
 /* FlexSlider Necessary Styles
-*********************************/ 
+*********************************/
 .flexslider {margin: 0; padding: 0;}
 .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img {width: 100%; display: block;}
 .flex-pauseplay span {text-transform: capitalize;}
 
 /* Clearfix for the .slides element */
-.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
-html[xmlns] .slides {display: block;} 
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
 * html .slides {height: 1%;}
 
 /* No JavaScript Fallback */
@@ -794,11 +794,11 @@ html.boxed.pattern {
 
 #content > section, #content > div, #content > blockquote, #content > article, #content > .title {
 /* margin-bottom:80px; !original */
- margin-bottom:28px; 
+ margin-bottom:28px;
 }
 
 .whiteBackground {
-margin-top:120px; 
+margin-top:120px;
 background-color:#ffffff;
 padding:30px;
      -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 20px;
@@ -964,7 +964,7 @@ blockquote > p {
 }
 
 
-  
+
 
 #logo {
   padding:31px 0;
@@ -1103,7 +1103,7 @@ blockquote > p {
 .dark_menu #menu li ul li {
   border-color:#464646;
 }
-.dark_menu #menu li ul li a { 
+.dark_menu #menu li ul li a {
   background:#3B3B3B;
   color:#999;
 }
@@ -1154,7 +1154,7 @@ blockquote > p {
   text-indent:-9999px;
   width:28px;
   cursor:pointer;
-  position:absolute; 
+  position:absolute;
   top:0;
   left:0;
   background:transparent;
@@ -1163,7 +1163,7 @@ blockquote > p {
 }
 #searchform .icon-search {
   color:#B6B6B6;
-  position:absolute;    
+  position:absolute;
   font-size:16px;
   top:0;
   left:0;
@@ -1182,7 +1182,7 @@ blockquote > p {
 }
 .sidebar #searchform {
    position:static;
-} 
+}
 .sidebar #s {
    height:38px;
    padding:10px;
@@ -1229,7 +1229,7 @@ blockquote > p {
   height:auto;
 }
 .f_height #menu, .minimal #menu {
-  
+
 }
 .f_height #menu > ul, .minimal #menu > ul {
   height:89px;
@@ -1368,7 +1368,7 @@ input[type="submit"] {
  -webkit-box-shadow: inset rgba(0, 0, 0, 0.15) 10px 0 20px -10px;
    -moz-box-shadow: inset rgba(0, 0, 0, 0.15) 10px 0 20px -10px;
    box-shadow: inset rgba(0, 0, 0, 0.15) 10px 0  20px -10px;
-  
+
 }
 
 #sidebarRight #research_period, #sidebarRight #department, #sidebarRight #project_links, #sidebarRight #file_list, #sidebarRight #tags, #sidebarRight #funder {
@@ -1417,7 +1417,7 @@ input[type="submit"] {
  -webkit-box-shadow:  rgba(0, 0, 0, 0.15) 0 0 20px;
    -moz-box-shadow:  rgba(0, 0, 0, 0.15) 0 0 20px;
    box-shadow:  rgba(0, 0, 0, 0.15) 0 0 20px;
- 
+
 }
 
 .home .widget_categories ul li {
@@ -1473,7 +1473,7 @@ border-top:1px solid #ffffff;
   -webkit-transition: all 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
   -moz-transition: all 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
   -o-transition: all 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
-  transition: all 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+  transition: all 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
   -webkit-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
   -moz-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
   -o-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
@@ -1562,7 +1562,7 @@ background:linear-gradient(110deg, #EEF1EA 0%,#ffffff 100%);
 
 .no-touch.csstransitions .tone #items .foreign-languages-and-literatures a:hover .caption, .tone #items .foreign-languages-and-literatures a.iehover .caption,
 .no-touch.csstransitions .tone #items .english a:hover .caption, .tone #items .english a.iehover .caption,
-.no-touch.csstransitions .tone #items .philosophy a:hover .caption, .tone #items .philosophy a.iehover .caption, 
+.no-touch.csstransitions .tone #items .philosophy a:hover .caption, .tone #items .philosophy a.iehover .caption,
 .no-touch.csstransitions .tone #items .religious-studies a:hover .caption, .tone #items .religious-studies a.iehover .caption,
 .no-touch.csstransitions .tone #items .rhetoric-media-studies a:hover .caption, .tone #items .rhetoric-media-studies a.iehover .caption,
 .no-touch.csstransitions .tone #items .history a:hover .caption, .tone #items .history a.iehover .caption,
@@ -1654,7 +1654,7 @@ background:linear-gradient(110deg, #EEF1EA 0%,#ffffff 100%);
 ------------------------------*/
 
 #filtersContainer {
-  
+
 }
 
 
@@ -1670,7 +1670,7 @@ background:linear-gradient(110deg, #EEF1EA 0%,#ffffff 100%);
    box-shadow: rgba(0, 0, 0, 0.15) 0 0 20px;
  /* cursor:pointer;*/
 
- 
+
 }
 
 #filters span {
@@ -1679,7 +1679,7 @@ background:linear-gradient(110deg, #EEF1EA 0%,#ffffff 100%);
         color:#9aa092;
         letter-spacing:.07em;
         float:left;
-        margin-top:15px; 
+        margin-top:15px;
 }
 
 
@@ -1794,7 +1794,7 @@ background:linear-gradient(110deg, #EEF1EA 0%,#ffffff 100%);
   margin-left:26px;
   font-size:12px;
 }
-.buttons a.btnClose:before {    
+.buttons a.btnClose:before {
   border-left: 1px solid #E9E9E9;
   content: "";
   display: block;
@@ -1863,16 +1863,16 @@ background:linear-gradient(110deg, #EEF1EA 0%,#ffffff 100%);
 
 #projectDetails #canvas img.alignleft {
    margin:5px 15px 15px 0;
-} 
+}
 
 #projectDetails #canvas img.alignright {
    margin:5px 0 15px 15px;
-}  
+}
 
 #projectDetails #canvas img.aligncenter {
    margin-top:5px;
    margin-bottom:15px;
-} 
+}
 
 
 
@@ -1886,47 +1886,47 @@ background:linear-gradient(110deg, #EEF1EA 0%,#ffffff 100%);
 -----   Common Classes   -----
 ------------------------------*/
 
-.modern .format-audio .pTitle:before, 
+.modern .format-audio .pTitle:before,
 .classic .format-audio .pTitle h2:before,
 .rbPosts.classic .format-audio header a:before {
   content: "";
   font-size:17px;
   padding-top:7px;
 }
-.modern .format-video .pTitle:before, 
+.modern .format-video .pTitle:before,
 .classic .format-video .pTitle h2:before,
 .rbPosts.classic .format-video header a:before {
   content: "▶";
   font-size:17px;
   padding-top:9px;
 }
-.modern .format-image .pTitle:before, 
+.modern .format-image .pTitle:before,
 .classic .format-image .pTitle h2:before,
 .rbPosts.classic .format-image header a:before {
   content: "🌄";
   font-size:16px;
   padding-top:10px;
 }
-.modern .format-gallery .pTitle:before, 
+.modern .format-gallery .pTitle:before,
 .classic .format-gallery .pTitle h2:before,
  .rbPosts.classic .format-gallery header a:before {
   content: "";
   padding-top:9px;
 }
-.modern .format-quote .pTitle:before, 
+.modern .format-quote .pTitle:before,
 .classic .format-quote .pTitle h2:before,
 .rbPosts.classic .format-quote header a:before {
   content: "❞";
   font-size:20px;
   padding-top:9px;
 }
-.modern .format-standard .pTitle:before, 
+.modern .format-standard .pTitle:before,
 .classic .format-standard .pTitle h2:before,
 .rbPosts.classic .format-standard header a:before {
   content: "";
   padding-top:9px;
 }
-.modern .format-link .pTitle:before, 
+.modern .format-link .pTitle:before,
 .classic .format-link .pTitle h2:before,
 .rbPosts.classic .format-link header a:before {
   content: "";
@@ -2153,7 +2153,7 @@ blockquote.special cite {
   color:#ACACAC;
   margin-top:10px;
 }
-blockquote.special cite:before {    
+blockquote.special cite:before {
   border-bottom: 1px solid #DBDBDB;
   content:"-";
   display:block;
@@ -2177,7 +2177,7 @@ blockquote.special cite:before {
   border-bottom:1px solid #E9E9E9;
   padding-bottom:50px;
   margin-top:50px;
-} 
+}
 .classic .post:first-child {
   margin-top:0;
 }
@@ -2295,7 +2295,7 @@ blockquote.special cite:before {
   margin:0;
 }
 .classic .excerpt p + .more {
-  display:inline-block; 
+  display:inline-block;
   margin-top:15px;
 }
 
@@ -2487,7 +2487,7 @@ ol#singlecomments .children .children .comment {
   font-weight:bold;
   color:#FD4326;
 }
-#cancel-comment-reply-link {    
+#cancel-comment-reply-link {
   float:right;
   font-style:italic;
 }
@@ -2564,7 +2564,7 @@ ol#singlecomments .children .children .comment {
 .id-purchase-form #stripe-input {
    float:left;
    clear:left;
-   margin:20px 0 20px 10px;  
+   margin:20px 0 20px 10px;
 }
 
 .miniF {
@@ -2725,7 +2725,7 @@ ol#singlecomments .children .children .comment {
 
 .morethan {
    position:relative;
-   top:10px;  
+   top:10px;
 }
 .morethan .circles.full {
    top:5px;
@@ -2889,7 +2889,7 @@ ul.products li > a:first-child, ul.products li .caption, ul.products li h3, ul.p
   -webkit-transition: all 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
   -moz-transition: all 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
   -o-transition: all 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
-  transition: all 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+  transition: all 300ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
   -webkit-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
   -moz-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
   -o-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
@@ -3260,7 +3260,7 @@ ul.products .star-rating {
 }
 
 .cart-contents:before {
-   content:"";    
+   content:"";
    display:inline-block;
    font-family:'fontello';
    font-style:normal;
@@ -3281,7 +3281,7 @@ ul.products .star-rating {
    -webkit-box-sizing:border-box;
    box-sizing:border-box;
 }
-.cart-widget {    
+.cart-widget {
    position:absolute;
    right:0;
    top:25px;
@@ -3584,7 +3584,7 @@ ul.products .star-rating {
    float:left;
    margin:10px 0 10px;
 }
-.cart_item a {    
+.cart_item a {
    display:table-cell;
    height:80px;
    padding-left:20px;
@@ -3820,7 +3820,7 @@ ul.order_details {
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
    -webkit-appearance:none;
-   margin:0; 
+   margin:0;
 }
 .widget_layered_nav .count:before {
    content:"(";
@@ -4629,7 +4629,7 @@ hr {
   position:absolute;
   top:-42px;
   right:0;
-} 
+}
 
 .rbPosts.modern .buttons {
    display:none;
@@ -4649,7 +4649,7 @@ hr {
 }
 .rbProjects {
   position:relative;
-  
+
 }
 
 .latestProjects #items a {
@@ -4671,18 +4671,18 @@ font-weight:normal;
    width:220px;
    height:auto;
    margin-right:20px;
-} 
+}
 
 .latestProjects.tone #items .caption{
    text-align:left;
    width:45%;
-   
+
    height:auto;
    overflow:visible;
    padding-top:0px;
-   border-bottom-color:#ffffff;	
-    
-    
+   border-bottom-color:#ffffff;
+
+
 }
 
 .no-touch.csstransitions .latestProjects.tone #items a:hover .caption, .latestProjects.tone #items a.iehover .caption {
@@ -4696,7 +4696,7 @@ font-weight:normal;
   border-left-color-value: transparent;
   background-color: transparent;
   height: auto;
-  
+
 }
 
 .no-touch.csstransitions .latestProjects.tone #items a:hover, .latestProjects.tone #items a.iehover {
@@ -4712,7 +4712,7 @@ font-weight:normal;
 .btnAll {
   position:absolute;
   top:-32px;
-  
+
   right:10px;
 
 }
@@ -4839,7 +4839,7 @@ font-weight:normal;
 .rbPricingTable .featured .last {
   padding:23px 0 0 !important;
 }
-.rbPricingTable .featured span {    
+.rbPricingTable .featured span {
   left:0;
   position:absolute;
   text-align:center;
@@ -4984,7 +4984,7 @@ font-weight:normal;
 .sectionTitle.con-none strong {
    padding:0 0 7px 0;
 }
- 
+
 /* ------------------------
 -----   Text Block with Icons  -----
 ------------------------------*/
@@ -5487,10 +5487,10 @@ table.style2 tbody tr td:first-child {
 }
 
 #students .rbTeam {
-  margin-bottom:10px; 
+  margin-bottom:10px;
 }
 
-#sidebarRight .rbTeam { 
+#sidebarRight .rbTeam {
   text-align:left;
   margin-bottom:0px;
 }
@@ -5672,7 +5672,7 @@ table.style2 tbody tr td:first-child {
   font-weight:bold;
   margin:65px 0 0;
   letter-spacing:-4px;
-} 
+}
 
 .no-ie .rbStats.pie .circles {
   position:absolute;
@@ -5876,7 +5876,7 @@ table.style2 tbody tr td:first-child {
 .widget_categories ul a {
   color:#000000;
   font-weight:normal;
-  font-size:16px;	
+  font-size:16px;
 }
 
 .widget_meta ul li:first-child, .widget_pages ul li:first-child, .widget_categories ul li:first-child, .widget_archive ul li:first-child, .widget_recent_entries ul li:first-child, .widget_recent_comments ul li:first-child, .widget_rss ul li:first-child, .widget_layered_nav ul li:first-child, .widget_product_categories ul li:first-child {
@@ -5950,14 +5950,14 @@ table.style2 tbody tr td:first-child {
 .eemail_caption {
   margin-bottom:15px;
 }
-.eemail_button { 
+.eemail_button {
   position:relative;
 }
 .eemail_textbox_class {
   padding-right:70px !important;
 }
 .eemail_textbox_button {
-  padding:10px 12px 9px !important; 
+  padding:10px 12px 9px !important;
   position:absolute;
   top:-39px;
   right:0;
@@ -5983,7 +5983,7 @@ table.style2 tbody tr td:first-child {
 -----   Tag Cloud   -----
 ------------------------------*/
 
-.tagcloud > a {    
+.tagcloud > a {
   background:#F7F7F7;
   color:#6B6B6B;
   display:block;
@@ -6075,7 +6075,7 @@ table.style2 tbody tr td:first-child {
   border-color:#464646;
 }
 
-#footer1 .tagcloud > a {    
+#footer1 .tagcloud > a {
   background:#3B3B3B;
   color:#555;
 }
@@ -6096,7 +6096,7 @@ table.style2 tbody tr td:first-child {
 
 #footer1 .widget_wysija_cont .wysija-submit, #footer1 .widget_ns_mailchimp input[type="submit"] {
   margin-top:-50px !important;
-} 
+}
 #footer1 .widget_wysija .widget_title, #footer1 .widget_ns_mailchimp .widget_title {
   display:block !important;
 }
@@ -6163,7 +6163,7 @@ table.style2 tbody tr td:first-child {
   content:"|";
   padding-left:15px;
   font-size:10px;
-  color:#777;    
+  color:#777;
   display:inline-block;
   float:right;
   margin-top:-1px;
@@ -6186,7 +6186,7 @@ table.style2 tbody tr td:first-child {
 
 #footer2 .socialList a {
   background-image:url(images/socialIconsDark.png);
-}  
+}
 
 #footer2 .widget_nav_menu a {
   background:none;
@@ -6631,7 +6631,7 @@ table.style2 tbody tr td:first-child {
   z-index:8;
 }
 
-.minimal-1 .mainControls .m-timer {    
+.minimal-1 .mainControls .m-timer {
   height:50px;
   left:0;
   position:absolute;
@@ -6649,7 +6649,7 @@ table.style2 tbody tr td:first-child {
   z-index:9999;
 }
 
-.minimal-1 .mainControls .ul {    
+.minimal-1 .mainControls .ul {
   height:4px;
   position:absolute;
   right:123px;
@@ -6761,7 +6761,7 @@ table.style2 tbody tr td:first-child {
   position:relative;
   z-index:9;
 }
-.minimal-2 .tabs span {   
+.minimal-2 .tabs span {
   background:#FD4326;
   display:block;
   height:100%;
@@ -6954,7 +6954,7 @@ table.style2 tbody tr td:first-child {
   display:none !important;
 }
 .mejs-container .mejs-controls div.mejs-time.mejs-duration-container {
-  margin-left:-55px; 
+  margin-left:-55px;
 }
 .mejs-button.mejs-volume-button.mejs-mute, .mejs-button.mejs-volume-button.mejs-unmute {
   border-left:1px solid #000;
@@ -7126,6 +7126,19 @@ img.pMedia, .pMedia iframe {
   background:transparent;
 }
 
+/* Tag Cloud */
+
+#tagcloud {
+  padding: 15px;
+  line-height: 3.0em;
+  text-align: center;
+}
+
+#tagcloud a {
+  padding: 6px;
+  white-space: nowrap;
+}
+
 /* ---------------------------------------------------------------------------------
 ------------------------------   MEDIA QUERIES   ----------------------------------
 ------------------------------------------------------------------------------------*/
@@ -7240,7 +7253,7 @@ img.pMedia, .pMedia iframe {
     float:left;
     clear:left;
     height:auto !important;
-    padding:8px 12px !important; 
+    padding:8px 12px !important;
     border:none !important;
   }
   #menu li a {
@@ -7303,26 +7316,28 @@ img.pMedia, .pMedia iframe {
   .boxed body {
     width:768px;
   }
-  
+
   #filters {
       width:700px;
   }
-  
+
   .tone #items .caption {
       height:180px;
   }
-  
+
   .home .tone #items .caption {
       height:auto;
   }
-  
-  
+
+
   .no-touch.csstransitions .tone #items a:hover .caption, .tone #items a.iehover .caption {
       height:200px;
   }
-  
-  
-  
+
+
+
+
+
   .wrapper, #footer2 > div, .modern #pContent {
     width:740px;
   }
@@ -7353,7 +7368,7 @@ img.pMedia, .pMedia iframe {
     width:434px;
   }
   .modern .pComments {
-    display:none;  
+    display:none;
   }
   .modern .pType {
     width:110px;
@@ -7362,11 +7377,11 @@ img.pMedia, .pMedia iframe {
   .cfour #items .item, .right-sidebar #items .item, .left-sidebar #items .item, ul.products li {
     width:170px;
   }
-  
+
   .home .cfour #items .item .caption {
       width:90%;
   }
-  
+
   .cthree #items .item {
     width:233px;
   }
@@ -7523,14 +7538,14 @@ img.pMedia, .pMedia iframe {
     width:33.33%;
   }
   #content {
-    margin:120px 0 0 0 !important; 
-   
+    margin:120px 0 0 0 !important;
+
   }
-  
+
   .home #content {
       margin-top:50px!important;
   }
-  
+
   #headerWidgets .right {
     display:none;
   }
@@ -7566,11 +7581,11 @@ img.pMedia, .pMedia iframe {
   .column_container {
     width:50%;
   }
-  
+
   .home .span4.column_container {
-     width:40%; 
+     width:40%;
   }
-  
+
   .span12 {
     width:100%;
   }
@@ -7602,7 +7617,7 @@ img.pMedia, .pMedia iframe {
   #filters {
       display:none;
   }
-  
+
   #filter {
     right:0 !important;
   }
@@ -7724,16 +7739,16 @@ img.pMedia, .pMedia iframe {
    ul.products li .button {
       top:118px;
    }
-   
+
      .tone #items .caption {
       height:240px;
   }
-  
+
   .home .tone #items .caption {
       height:auto;
   }
-  
-  
+
+
   .no-touch.csstransitions .tone #items a:hover .caption, .tone #items a.iehover .caption {
       height:260px;
   }
@@ -7780,7 +7795,7 @@ img.pMedia, .pMedia iframe {
   .sidebar {
     width:560px !important;
   }
-  
+
   .modern .pTitle {
     width:420px;
   }
@@ -7789,14 +7804,14 @@ img.pMedia, .pMedia iframe {
   } .modern .p2 {
     display:block;
     width:72px;
-  } 
+  }
 
   .cfour #items .item, .right-sidebar #items .item, .left-sidebar #items .item, .cthree #items .item, ul.products li {
     width:173.33px;
   }
-  
 
-  
+
+
   .ctwo #items .item {
     width:270px;
   }
@@ -7821,21 +7836,21 @@ img.pMedia, .pMedia iframe {
    ul.products li .button {
       top:108px;
    }
-   
+
    #logo img {
        max-width:300px;
    }
-   
-   
+
+
    .tone #items .caption {
       height:280px;
   }
-  
+
   .home .tone #items .caption {
       height:auto;
   }
-  
-  
+
+
   .no-touch.csstransitions .tone #items a:hover .caption, .tone #items a.iehover .caption {
       height:300px;
   }
@@ -7856,14 +7871,14 @@ img.pMedia, .pMedia iframe {
   .wrapper, #footer2 > div, .modern #pContent, .left-sidebar #content, .right-sidebar #content {
     width:440px;
   }
-  
+
   .minimal #logo img {
 
   }
-  
+
   #footer1 > div, .rbPosts.classic .holder, #sidebarBottom > div {
     width:460px;
-  } 
+  }
 
   .sidebar {
     width:440px !important;
@@ -7888,7 +7903,7 @@ img.pMedia, .pMedia iframe {
   #headerWidgets div {
     display:none;
   } #headerWidgets div:first-child {
-    display:block; 
+    display:block;
   }
 
   .minimal-2 .tabs li {
@@ -7966,33 +7981,33 @@ img.pMedia, .pMedia iframe {
        top:-5px;
 
    }
-   
+
 
    .minimal #logo {
        margin-top:-20px;
        padding:0;
        height:110px;
-   }   
-   
+   }
+
 
    .minimal #logo img {
 
        margin-top:-100px;
-   }   
-   
+   }
+
    .tone #items .caption {
       height:280px;
   }
-  
+
   .no-touch.csstransitions .tone #items a:hover .caption, .tone #items a.iehover .caption {
       height:300px;
   }
-  
+
   #faculty {
       width:100%;
       padding-right:0px;
   }
-  
+
   #students {
       width:100%;
       padding-left:0px;
@@ -8022,11 +8037,11 @@ img.pMedia, .pMedia iframe {
 
        margin-top:-100px;
    }
-  
-  
+
+
   #logo {
     padding-top:25px !important;
-    border:none !important; 
+    border:none !important;
     height:auto !important;
   }
   #logo a {
@@ -8044,13 +8059,13 @@ img.pMedia, .pMedia iframe {
     margin:-10px 0 30px -95px !important;
     border:none;
   }           */
-  
+
   .minimal #menu {
        float:left;
        top:-5px;
 
    }
-  
+
 /*  #menu > ul {
     top:45px;
     left:50% !important;
@@ -8070,14 +8085,14 @@ img.pMedia, .pMedia iframe {
   #headerWidgets, #pageTitle a, .modern .pTime, .modern .pType, .modern .pComments, #mainHeader #searchform {
     display:none;
   }
-  
 
-   
-   
-  
-  
-  
-  
+
+
+
+
+
+
+
 
   .cart-widget {
    left:50%;
@@ -8098,7 +8113,7 @@ img.pMedia, .pMedia iframe {
   }
   #footer1 > div, .rbPosts.classic .holder, #sidebarBottom > div {
     width:380px;
-  } 
+  }
 
   .sidebar {
     width:360px !important;
@@ -8191,7 +8206,7 @@ img.pMedia, .pMedia iframe {
   }
   #footer1 > div, .rbPosts.classic .holder, #sidebarBottom > div {
     width:300px;
-  } 
+  }
 
   .sidebar {
     width:300px !important;
@@ -8242,7 +8257,7 @@ img.pMedia, .pMedia iframe {
   }
   #footer1 > div, .rbPosts.classic .holder, #sidebarBottom > div {
     width:240px;
-  } 
+  }
 
   .sidebar {
     width:220px !important;
@@ -8287,18 +8302,18 @@ img.pMedia, .pMedia iframe {
    ul.products li .button {
       top:145px;
    }
-   
+
    .tone #items .caption {
       height:180px;
   }
-  
+
   .no-touch.csstransitions .tone #items a:hover .caption, .tone #items a.iehover .caption {
       height:200px;
   }
-   
+
   .rbTeam .bio {
       display:none;
-  } 
+  }
 
 }
 
@@ -8306,7 +8321,7 @@ img.pMedia, .pMedia iframe {
 -----   STOP    -----
 ------------------------------*/
 
-@media all and (max-width: 260px) {  
+@media all and (max-width: 260px) {
 
   body {
     overflow-x:scroll;
@@ -8318,8 +8333,8 @@ img.pMedia, .pMedia iframe {
 -----   Retina adjustments    -----
 ------------------------------*/
 
-@media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi){ 
-  
+@media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi){
+
   #logo .default {
     display:none !important;
   }
@@ -8361,7 +8376,7 @@ img.pMedia, .pMedia iframe {
   .rbAlert i {
     background-image:url(images/alert_x2.png);
     background-size:141px 21px;
-  } 
+  }
   .select-replace {
     background-image: url(dot_x2.png);
     background-size: 19px 5px;
@@ -8560,8 +8575,8 @@ input, input[type="submit"], textarea, select {
 /* Added in 2.1 -- Att! Some declarations were also changed in the stylesheet's body */
 
 @media all and (max-width: 1054px) {
-  .boxed body { 
-     width:auto; 
+  .boxed body {
+     width:auto;
   }
 }
 .cartfalse .cart-widget {
@@ -8650,5 +8665,3 @@ img {
 }
 
 .no_bottom_margin { margin-bottom: 0 !important; }
-
-

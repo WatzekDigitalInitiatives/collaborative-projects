@@ -1,6 +1,0 @@
-revslider_admin.php : lines 31-34
-inc_php/base_front.class.php : line 15
-inc_php/revslider_output.class.php : lines 531-586(the entire script call)
-								   : lines 735-738(a new media query at 100%)
-views/templates/sliders.php : "how to use text"
-views/templates/sliders_list.php : line 40(alias)

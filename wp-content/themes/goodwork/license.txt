@@ -1,3 +1,0 @@
-All PHP code is released under the GNU General Public Licence version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
-
-All HTML/CSS/JAVASCRIPT code is released under Envato's Regular License (http://themeforest.net/licenses/regular_extended)

@@ -18,11 +18,11 @@
 
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 
-	<?php 
+	<?php
 
 	if ( function_exists('wpseo_init') || function_exists('aioseop_load_modules') || function_exists('su_get_user_agent') ) {
 
-		$i = 0; 
+		$i = 0;
 		if ( have_posts() ) while ( have_posts() ) : the_post();
 			if(++$i <= 1) {
 				echo '<meta name="description" content="' . rb_excerpt('rb_post', 'rb_more') . '">';
@@ -51,7 +51,7 @@
 
 	if (isset($_COOKIE['dpi']))
 		$retina = $_COOKIE['dpi'];
-	else 
+	else
 		$retina = false;
 
 	$custom_the_title = '';
@@ -59,19 +59,19 @@
 	wp_deregister_script('comment-reply');
 	wp_deregister_script('wp-mediaelement');
 	wp_deregister_style('wp-mediaelement');
-	
+
 	/* JM- superfish stuff, for projects page */
 	if (is_page('2')){
 
 		wp_register_style( 'superfish_style', get_stylesheet_directory_uri() . '/superfish/css/superfish.css' );
 		wp_enqueue_style( 'superfish_style' );
-	
-	
+
+
 		//echo "it's post #2!";
 	}
-	
-	
-	
+
+
+
 	if(is_search()){
 
 		$sidebar = array(
@@ -97,7 +97,7 @@
 				}
 
 			} else if(is_page_template('template-blog-classic.php') || (is_archive() && !is_post_type_archive('portfolio')) || (is_single() && get_post_type() == 'post')) {
- 
+
 				$sidebar = array(
 					'sidebar_type' => ot_get_option('rb_blog_sidebars'),
 					'sidebar_id' => 'rb_blog_widget_right'
@@ -110,29 +110,29 @@
 				$sidebar = array(
 					'sidebar_type' => get_post_meta($post->ID, 'rb_meta_box_sidebar_layout', true),
 					'sidebar_id' => get_post_meta($post->ID, 'rb_meta_box_sidebar_set', true)
-				);	
+				);
 
 				$custom_the_title = get_the_title($post->ID);
 
-			} else if( is_post_type_archive('portfolio')) { 
+			} else if( is_post_type_archive('portfolio')) {
 
 				$v_page = isset($_GET['id']) ? $_GET['id'] : ot_get_option('rb_def_p_page', '');
 
 				$sidebar = array(
 					'sidebar_type' => get_post_meta($v_page, 'rb_meta_box_sidebar_layout', true),
 					'sidebar_id' => get_post_meta($v_page, 'rb_meta_box_sidebar_set', true)
-				);	
+				);
 
 				$custom_the_title = get_the_title($v_page);
 
-			} else if (is_single() && get_post_type() == 'portfolio') { 
+			} else if (is_single() && get_post_type() == 'portfolio') {
 
 				$v_page = isset($_GET['id']) ? $_GET['id'] : ot_get_option('rb_def_p_page', '');
 
 				$sidebar = array(
 					'sidebar_type' => 'right-sidebar',
 					'sidebar_id' => '1'
-				);	
+				);
 
 				$custom_the_title = get_the_title($v_page);
 
@@ -162,7 +162,7 @@
 		} else {
 
 			$custom_the_title = __('404 Error', 'goodwork');
-			
+
 		}
 
 	}
@@ -176,9 +176,6 @@
 	<?php  wp_head(); ?>
 
 
-
-
-		
 </head>
 
 
@@ -191,9 +188,9 @@
 		<!-- Header Start -->
 
 		<header id="mainHeader" class=" <?php echo get_option('rb_o_hlayout'); ?> <?php echo get_option('rb_hmenu'); ?> <?php echo get_option('rb_o_hlogo'); ?>">
-                    
 
-<div id="headerContainer" class="clearfix wrapper"> 
+
+<div id="headerContainer" class="clearfix wrapper">
 
 			<nav id="menu" class="right cart<?php echo ot_get_option('rb_show_cart', 'false'); ?>">
 				<p class="responsive"><?php _e('Navigation', 'goodwork'); ?></p>
@@ -232,8 +229,8 @@
 
 			<!-- Logo Start -->
 			<div id="logo" class="clearfix test">
-				
-				<?php 
+
+				<?php
 
 				$logo = get_option( 'krown_logo' );
 				$logo_x2 = get_option( 'krown_logo_x2' );
@@ -287,20 +284,20 @@
                     */
                      ?>
                      </div>
-                     
+
                       <!-- end headerContainer -->
 		</header>
-		
+
 		<!-- Header End -->
-		
-		
+
+
 		<?php
 		/* JM - subcategory stuff */
 		 if (isset($_REQUEST["f"])){
 
 			   // $c=ucwords(str_replace("-", " ",$_REQUEST["f"]));
 			   // $cat="$c ";
-                $slug=$_REQUEST["f"];                
+                $slug=$_REQUEST["f"];
                 $obj=get_term_by( "slug", $slug, "portfolio_category");
                 $cat=$obj->name;
 
@@ -308,14 +305,14 @@
 			}
 			else{$cat="";}
 			?>
-		
-		
+
+
 		<?php if(!is_page_template('template-slider.php') && !is_page_template('template-slider-full.php') && ($custom_the_title != '' || get_post_meta($post->ID, 'rb_meta_box_t_show', true) == 'true')) : ?>
-          
-		    <div id="pageTitle" class="clearfix" > 
+
+		    <div id="pageTitle" class="clearfix" >
 
 			<h1><?php echo $cat;?> <?php echo $custom_the_title == '' ? get_the_title() : $custom_the_title; ?> </h1>
-             
+
 			<?php if(!(is_search() || is_404()) && get_post_meta($post->ID, 'rb_meta_box_t_link', true) != '') : ?>
 			<a href="<?php echo get_post_meta($post->ID, 'rb_meta_box_t_url', true); ?>" target="<?php echo get_post_meta($post->ID, 'rb_meta_box_t_target', true); ?>"><?php echo get_post_meta($post->ID, 'rb_meta_box_t_link', true); ?></a>
 			<?php endif; ?>
@@ -326,7 +323,7 @@
 				next_post_link('<span class="next">%link</span>'); ?>
 				</nav>
 			<?php endif; ?>
-          </div>    
+          </div>
 
 
 		<?php elseif (is_page_template('template-slider.php') && get_post_meta($post->ID, 'rb_meta_box_title2_show', true) == 'true') : ?>
@@ -350,12 +347,12 @@
 
 		<!-- Content Wrapper Start -->
 
- 
+
 
                 <?php if(is_page('projects')) : ?>
-		<article id="content" class="clearfix"  style="margin-top:165px;"> 
+		<article id="content" class="clearfix"  style="margin-top:165px;">
 		<?php endif; ?>
 
                 <?php if(!is_page_template('template-slider-full.php') && !is_page('projects')) : ?>
                      <article id="content" class="clearfix whiteBackground"  >
-                <?php endif; ?> 
+                <?php endif; ?>
