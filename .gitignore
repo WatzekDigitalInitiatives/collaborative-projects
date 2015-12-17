@@ -7,9 +7,9 @@
 Thumbs.db
 
 # libraries & other untracked parts of child theme
-lib/
-option-treeFAKE/
-superfish/
+lib/**
+option-treeFAKE/**
+superfish/**
 
 # wordpress specific
 wp-config.php
