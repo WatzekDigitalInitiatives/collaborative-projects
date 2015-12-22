@@ -112,7 +112,9 @@ if( $portfolio_posts->have_posts() ) {
 
 			} //end while porfolio posts
 
-                    ?><div id="faculty">
+                    ?>
+
+										<div id="faculty">
                             <h2>Faculty</h2>
 
                        <?php
